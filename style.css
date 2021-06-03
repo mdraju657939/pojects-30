@@ -1,0 +1,83 @@
+body,h1,h2,h3,h4,h5,h6,span,p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*=========== Header Section ===========*/
+
+.lfwf-header .navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+}
+.lfwf-header span{
+    display: inline-block;
+    background: #fff;
+    color: #fc5e03;
+    border-radius: 10px;
+    border: 2px solid #fc5e03;
+    height: 40px;
+    width: 35px;
+    text-align: center;
+    font-size: 22px;
+}
+.lfwf-menu .nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+
+/*=========== slider-section ============= */
+.slider-section{
+    background: url(img/ia_200000012.jpg) no-repeat center center;
+    padding: 250px 0;
+    position: relative;
+    z-index: 9999;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -9999;
+}
+
+/* ========= about-section ============ */
+
+.about-section{
+    background: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 100px;
+}
+
+/* ========== feature-Section ============ */
+
+.feature-item{
+    height: 250px;
+    box-shadow: 2px 4px 30px 0 #c3c4c9;
+}
+.left-img-section img{
+    width: 40%;
+    border-radius: 10px 0 0 10px !important;
+    margin-right: 15px;
+
+}
+.left-test-section{
+    width: 60%;
+}
+.left-img-section img{
+    height: 100%;
+    width: auto;
+}
+
+.number-counter{
+    background: #f7f9ff;
+}
+
+/* ============ teacher-section ========= */
+
+.teachers-img-item{
+    height: 350px;
+}
